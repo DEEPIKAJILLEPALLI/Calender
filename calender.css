@@ -1,0 +1,13 @@
+li {   
+    width: 50px;
+    height: 25px;
+    background-color: purple;
+    float: left;
+    padding: 5px; 
+    margin: 10px;
+    text-align: center;
+    color: white;
+}
+ul{
+width:500px;
+}
