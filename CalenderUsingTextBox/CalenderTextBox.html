@@ -1,0 +1,26 @@
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Calender</title>
+</head>
+<link href="CalenderTextBox.css" rel="stylesheet" type="text/css">
+<script src="CalenderTextBox.js" defer></script>
+<body>
+    <label class="col-12 col-form-label">Date of Birth (MM/DD/YYYY)</label>
+
+<div style="display: flex;">
+    <div class="pr-2 pb-2 pb-lg-0 vm-width-55 ">
+        <input type="text" id="month" class="form-control" onchange="SelectedMonth()">
+    </div>
+    <span class="pr-3 pl-2">/</span>
+    <div class="pr-2 pb-2  pb-lg-0 vm-width-55">
+        <input type="text" id="day" class="form-control" placeholder="DD" onchange="SelectedDay()" >
+    </div>
+    <span class="pr-3 pl-2">/</span>
+    <div class="pr-2 pb-2 pb-lg-0 vm-width-70">
+        <input type="text" id="year" class="form-control" placeholder="YYYY" onchange="SelectedYear()">
+    </div>
+    <span id=Errormsg style="color:red"></span>
+</div>
+</body>
+</html>
